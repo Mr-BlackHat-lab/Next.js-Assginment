@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js Responsive App — 3rd Sem Assignment
 
-## Getting Started
+A fully responsive and themeable Next.js application built for my Full Stack Development subject (B.Tech CSE-IT, 3rd Semester).
 
-First, run the development server:
+> ✅ Routing + 🧭 Navbar + 🌗 Theme Toggle + 📱 Mobile Menu  
+> All styled with pure CSS — no Tailwind, no shortcuts, just code!
+
+---
+
+## 🔥 Features
+
+- 🧭 Responsive Navbar with menu + submenu + nested submenu
+- 🔗 File-based Routing (`pages/` directory)
+- 🌙 / ☀️ Dark–Light Theme Toggle (persisted in localStorage)
+- 📱 Hamburger menu on small screens
+- 🎨 Styled using clean `.css` files (no CSS-in-JS, no Tailwind)
+- 💻 Hosted & version-controlled
+
+---
+
+## 🧱 Folder Structure
+
+src/
+├── components/ # Navbar, ThemeToggle, HamburgerMenu
+├── pages/ # index.js, about.js, contact.js, services/
+├── styles/ # globals.css, navbar.css, theme.css
+
+
+
+---
+
+## 🛠 How to Run It Locally
 
 ```bash
+git clone https://github.com/Mr-BlackHat-lab/Next.js-Assginment
+cd Next.js-Assginment
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
+🌐 http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+💡 Extra Work Done
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    ✅ Theme is persisted using localStorage
 
-## Learn More
+    ✅ Smooth transitions between light/dark modes
 
-To learn more about Next.js, take a look at the following resources:
+    ✅ Responsive hamburger menu with dropdown support
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ✅ Nested dynamic routes under /services/web-development/*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🌐 Live Preview
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔗 Hosted at: https://next-js-assginment-ebon.vercel.app/
+
+
+🤝 Submission Info
+
+    👨‍🎓 Student: Prahalad Singh
+
+    🏫 College: Rai School of Engineering
+
+    📚 Subject: Full Stack Development with Next.js
+
+
+
+💬 “Good code is like good cheese — it melts your bugs away.” 🧀
