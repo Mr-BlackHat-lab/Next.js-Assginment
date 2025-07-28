@@ -20,10 +20,10 @@ A fully responsive and themeable Next.js application built for my Full Stack Dev
 
 ## 🧱 Folder Structure
 
-src/
-├── components/ # Navbar, ThemeToggle, HamburgerMenu
-├── pages/ # index.js, about.js, contact.js, services/
-├── styles/ # globals.css, navbar.css, theme.css
+src/<br /> 
+├── components/ # Navbar, ThemeToggle, HamburgerMenu<br /> 
+├── pages/ # index.js, about.js, contact.js, services/<br /> 
+├── styles/ # globals.css, navbar.css, theme.css<br /> 
 
 
 
@@ -39,8 +39,9 @@ npm run dev
 
 Then open:
 🌐 http://localhost:3000
-
-💡 Extra Work Done
+```
+---
+## 💡 Extra Work Done
 
     ✅ Theme is persisted using localStorage
 
@@ -50,14 +51,14 @@ Then open:
 
     ✅ Nested dynamic routes under /services/web-development/*
 
+---
 
-
-🌐 Live Preview
+## 🌐 Live Preview
 
 🔗 Hosted at: https://next-js-assginment-ebon.vercel.app/
 
-
-🤝 Submission Info
+---
+## 🤝 Submission Info
 
     👨‍🎓 Student: Prahalad Singh
 
@@ -65,6 +66,8 @@ Then open:
 
     📚 Subject: Full Stack Development with Next.js
 
-
+---
 
 💬 “Good code is like good cheese — it melts your bugs away.” 🧀
+
+---
