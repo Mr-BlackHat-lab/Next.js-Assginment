@@ -1,16 +1,18 @@
 /* src/styles/theme.css */
 body.light {
-  --bg: #ffffff;
-  --text: #111111;
-  --nav-bg: #f2f2f2;
-  --nav-text: #000000;
+  --bg: #F6F6EB;
+  --text: #212A27;
+  --nav-bg: #D5D6EA;
+  --nav-text: #212A27;
+  --butt-bg: #D7ECD9;
+  --butt-text: #212A27;
 }
 
 body.dark {
-  --bg: #1e1e1e;
-  --text: #f1f1f1;
-  --nav-bg: #333333;
-  --nav-text: #ffffff;
+  --bg: #0A0001;
+  --text: #EEEEEE;
+  --nav-bg: #410000;
+  --nav-text: #EEEEEE;
 }
 
 .theme-toggle {
